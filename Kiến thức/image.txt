@@ -1,0 +1,4 @@
+<img src="./images/logo 1.png" alt="Ảnh logo">
+
+src: link của hình
+alt: thay thế nếu hình sai
