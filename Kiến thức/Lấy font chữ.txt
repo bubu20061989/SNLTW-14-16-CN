@@ -1,0 +1,7 @@
+Bước 1:  Xác định font chữ cần lấy
+Bước 2: Truy cập vào https://fonts.google.com/
+Bước 3: Tìm kiếm font chữ phù hợp
+Bước 4: Get font
+Bước 5: Get embed code
+Bước 6: Copy code bỏ phần head của html
+Bước 7: Copy font family bỏ vào style.css
