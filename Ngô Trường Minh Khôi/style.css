@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none !important ;
+    font-family: "DM Sans", sans-serif;
+}
+
+:root{
+    --a-color: #60E1CB;
+    --x-color: #000000;
+    --c-color: #7BC0E3;
+    --v-color: #FFFFFF;
+    --b-color: rgba(7, 0, 59, 0.17);
+    --m-color: #292525;
+    --n-color: #7BC0E3;
+
+
+
+    
+}
+
+
+.menu{
+
+    display : flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.menu .menu-right a{
+    margin-left: 20px;
+    color:var(--a-color);
+    font-size:20px;
+    font-weight: 500;
+}
+.menu .menu-right button{
+    margin-left: 20px;
+    background-color:var(--c-color) ;
+    color: var(--v-color);
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.container {
+    display : flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 50px;
+}
+.container.container-left{
+    flex: 50%;
+}
+.container.container-img{
+    flex: 50%;
+    max-width: 50%;
+}
+.container .container-left h1{
+    color:#292525;
+    font-size: 58px;
+    font-weight: 450px;
+}
+
+.container .container-left p{
+    margin-top: 30px;
+}
+.container .container-left .btn-container {
+    margin-top: 30px;
+}
+.container .container-left .btn-container button{
+    margin-right: 20px;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color:var(--b-color);
+    color: #60E1CB;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+
+
+
+
+.Services{
+    
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 400px;
+    min-height: 10px;
+    margin-right: 300px;
+}
+
+.Services-mid{
+    text-align: center;
+    margin-left: 300px;
+    position: relative;
+    bottom: 300px;
+   font-weight: 300;
+}
+.Services .Group .item a{
+    position: relative;
+    top: 50px;
+    right: 100px;
+}
+.Group{
+    display: flex;
+    height: 380px;
+    width: 1500px;
+    text-align: center;
+    margin-left: 300px;
+   
+}
+.item{
+  
+    width: 350px;
+    height: 381px;
+    border: solid  #60E1CB;
+    position: relative;
+    bottom: 100px;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.Group img{
+    margin-right: 120px;
+    margin-top: 120px;
+
+}
